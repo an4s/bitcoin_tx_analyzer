@@ -1,0 +1,9 @@
+[submodule "bitcoin_tx_analyzer_v0.15.2"]
+	path = bitcoin_tx_analyzer_v0.15.2
+	url = https://github.com/an4s/bitcoin_tx_analyzer_v0.15.2
+[submodule "bitcoin_tx_analyzer_v0.18.1"]
+	path = bitcoin_tx_analyzer_v0.18.1
+	url = https://github.com/an4s/bitcoin_tx_analyzer_v0.18.1
+[submodule "bitcoin_tx_analyzer_v0.20.1"]
+	path = bitcoin_tx_analyzer_v0.20.1
+	url = https://github.com/an4s/bitcoin_tx_analyzer_v0.20.1
