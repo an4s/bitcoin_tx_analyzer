@@ -113,7 +113,7 @@ EXC: 0
 
 ### Sample 2
 
-The following run shows the working of the tool with non-default input file name. Note that this file contains an invalid entry which is reported by the tool as a warning. In this case, the tool prompts the user whether they want to abort (e.g., to fix the issues) or continue with the valid entries. The number of transactions processed per second is quite consistent.
+The following run shows the working of the tool with non-default input file name (input/output files in the `tx-analysis-files` directory in this repo). Note that this file contains an invalid entry which is reported by the tool as a warning. In this case, the tool prompts the user whether they want to abort (e.g., to fix the issues) or continue with the valid entries. The number of transactions processed per second is quite consistent.
 
 ```
 an4s@ubuntu:~$ bitcoin-qt -enable-tx-analysis -ta-input-filename=MyInputFile
