@@ -147,7 +147,7 @@ EXC: 0
 > TX analysis complete
 ```
 
-### Sample 4:
+### Sample 3
 
 The following run shows the working of the tool with invalid value provided to the `-ta-input-filename` argument (i.e., this file does not exist). The tool detects this while initializing and terminates right away.
 
