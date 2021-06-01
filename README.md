@@ -80,7 +80,7 @@ For each file `f` in the `ta-input-file`, the tool creates two files named `f_ou
 
 ### Sample 1
 
-The following run shows the working of the tool with the default arguments (input/output files in the `tx-analysis-files` directory in this repo). Transactions were processed at a rate between 30-50 transactions per second; processing may be stalled for a few seconds if the node is synchronizing with the network and utilizes higher CPU usage. The tool shows the progress of the analysis at runtime as the number of transactions that have been analyzed, this number as a fraction of the total number of transactions, and the total time that has been elapsed so far for the current data set.
+The following run shows the working of the tool with the default arguments (input/output files in the `tx-analysis-files` directory in this repo). Transactions were processed at a rate between 30-50 transactions per second; processing may be stalled for a few seconds if the node is synchronizing with the network and utilizes higher CPU usage. The tool shows the progress of the analysis at runtime as the number of transactions that have been analyzed, this number as a fraction of the total number of transactions, and the total time that has been elapsed so far for the current data set. Note that once the tool finishes performing analysis, it simply terminates the thread created for this purpose. It does _**not**_ affect the Bitcoin software or cause it to shut down.
 
 ```
 an4s@ubuntu:~$ bitcoin-qt -enable-tx-analysis
