@@ -163,3 +163,5 @@ Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland
 ## Epilogue
 
 Please provide feedback on the tool and report issues, if you find any. I intend to port the tool forward to future versions of Bitcoin, time permitting. Feel free to use the tool, port it forward and create PRs. Your contributions are welcome!
+
+My research works that have used results from this tool can be found [here](https://github.com/nislab/bitcoin-releases).
